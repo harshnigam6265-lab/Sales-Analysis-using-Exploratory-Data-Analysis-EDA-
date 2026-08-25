@@ -85,39 +85,7 @@ Plotly is used to create interactive charts that make it easier to explore sales
 
 ---
 
-## 📈 Visualizations
 
-### 1. Monthly Sales Trend
-
-Shows how sales change over time and helps identify seasonal sales patterns.
-
-![Monthly Sales Trend](Images/result1.png)
-
----
-
-### 2. Sales by Product Category
-
-Compares total sales across different product categories.
-
-![Sales by Product Category](Images/result2.png)
-
----
-
-### 3. Sub-Category Wise Analysis
-
-Provides a detailed comparison of sales performance across product sub-categories.
-
-![Sub-Category Wise Analysis](Images/result3.png)
-
----
-
-### 4. Monthly Profit Analysis
-
-Shows changes in profit over time and helps identify periods of stronger or weaker profitability.
-
-![Monthly Profit Analysis](Images/result4.png)
-
----
 
 ## 💡 Key Insights
 
@@ -130,61 +98,6 @@ The analysis helps identify several important business patterns:
 * Identified variations in business performance over time.
 * Created interactive visualizations for easier interpretation of the data.
 * Converted raw sales data into meaningful business insights.
-
----
-
-## 📁 Project Structure
-
-```text
-Sales_Analysis_EDA/
-│
-├── Sales_Analysis_EDA.ipynb
-├── Sample_Superstore.csv
-├── README.md
-│
-└── Images/
-    ├── result1.png
-    ├── result2.png
-    ├── result3.png
-    └── result4.png
-```
-
----
-
-## ▶️ How to Run the Project
-
-### Option 1: Google Colab
-
-1. Open the notebook in Google Colab.
-2. Upload `Sample_Superstore.csv`.
-3. Run the notebook cells sequentially.
-4. Explore the generated analysis and visualizations.
-
-### Option 2: Local Environment
-
-Clone the repository:
-
-```bash
-git clone https://github.com/rishavjha252005-blip/Sales_Analysis_EDA.git
-```
-
-Navigate to the project directory:
-
-```bash
-cd Sales_Analysis_EDA
-```
-
-Install the required libraries:
-
-```bash
-pip install pandas numpy plotly
-```
-
-Open the Jupyter Notebook:
-
-```bash
-jupyter notebook Sales_Analysis_EDA.ipynb
-```
 
 ---
 
